@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\lab2\\Lab2MAUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFBAE1D8-74EB-4348-B9F0-7C5EE7452FB8}|Lab2MAUI\\Lab2MAUI.csproj|d:\\lab2\\lab2maui\\lab2maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFBAE1D8-74EB-4348-B9F0-7C5EE7452FB8}|Lab2MAUI\\Lab2MAUI.csproj|solutionrelative:lab2maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\Transform.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\lab2\\Lab2MAUI\\Transform.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Transform.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\lab2\\Lab2MAUI\\test.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFBAE1D8-74EB-4348-B9F0-7C5EE7452FB8}|Lab2MAUI\\Lab2MAUI.csproj|d:\\lab2\\lab2maui\\lab2maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFBAE1D8-74EB-4348-B9F0-7C5EE7452FB8}|Lab2MAUI\\Lab2MAUI.csproj|solutionrelative:lab2maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFBAE1D8-74EB-4348-B9F0-7C5EE7452FB8}|Lab2MAUI\\Lab2MAUI.csproj|d:\\lab2\\lab2maui\\lab2maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FFBAE1D8-74EB-4348-B9F0-7C5EE7452FB8}|Lab2MAUI\\Lab2MAUI.csproj|solutionrelative:lab2maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transform.xslt",
+              "DocumentMoniker": "D:\\lab2\\Lab2MAUI\\Transform.xslt",
+              "RelativeDocumentMoniker": "Transform.xslt",
+              "ToolTip": "D:\\lab2\\Lab2MAUI\\Transform.xslt",
+              "RelativeToolTip": "Transform.xslt",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003586|",
+              "WhenOpened": "2024-11-10T21:27:01.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "test.xml",
+              "DocumentMoniker": "D:\\lab2\\Lab2MAUI\\test.xml",
+              "RelativeDocumentMoniker": "test.xml",
+              "ToolTip": "D:\\lab2\\Lab2MAUI\\test.xml",
+              "RelativeToolTip": "test.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-11-10T21:26:56.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transform.xslt",
+              "DocumentMoniker": "H:\\Transform.xslt",
+              "ToolTip": "H:\\Transform.xslt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003586|",
+              "WhenOpened": "2024-11-09T09:34:42.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2MAUI\\Lab2MAUI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Lab2MAUI\\MauiProgram.cs",
+              "ToolTip": "D:\\lab2\\Lab2MAUI\\Lab2MAUI\\MauiProgram.cs",
+              "RelativeToolTip": "Lab2MAUI\\MauiProgram.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAmwN4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:38:27.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2MAUI\\Lab2MAUI\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Lab2MAUI\\MainPage.xaml.cs",
+              "ToolTip": "D:\\lab2\\Lab2MAUI\\Lab2MAUI\\MainPage.xaml.cs",
+              "RelativeToolTip": "Lab2MAUI\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:10:37.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\lab2\\Lab2MAUI\\Lab2MAUI\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Lab2MAUI\\MainPage.xaml",
+              "ToolTip": "D:\\lab2\\Lab2MAUI\\Lab2MAUI\\MainPage.xaml",
+              "RelativeToolTip": "Lab2MAUI\\MainPage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAIBJwDQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-08T12:09:25.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

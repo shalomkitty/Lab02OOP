@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab2MAUI.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Start">
+
+
+            
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                
+
+                <Editor Grid.Column="0" Grid.RowSpan="6" x:Name="editor" VerticalOptions="FillAndExpand" IsReadOnly="true" TextChanged="Editor_TextChanged"/>
+
+                <StackLayout x:Name="RadioButtons" Grid.Column="1" Grid.Row="0" Orientation="Horizontal" Margin="50,20,0,0">
+                    <RadioButton x:Name="SaxBtn" Content="SAX API"/>
+                    <RadioButton x:Name="DomBtn" Content="DOM API" Margin="60,0,0,0"/>
+                    <RadioButton x:Name="LinqBtn" Content="LINQ to XML" Margin="60,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout x:Name="Prop1" Grid.Column="1" Grid.Row="1" Orientation="Horizontal" Margin="50,10,0,0" VerticalOptions="Start">
+                    <CheckBox x:Name="NameCheckBox"/>
+                    <Label Text="Name" FontSize="15" Margin="0,5,20,0"/>
+                    <Picker x:Name="NamePicker" WidthRequest="220" Margin="95,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout x:Name="Prop2" Grid.Column="1" Grid.Row="2" Orientation="Horizontal" Margin="50,10,0,0" VerticalOptions="Start">
+                    <CheckBox x:Name="FacultyCheckBox"/>
+                    <Label Text="Faculty" FontSize="15" Margin="0,5,20,0"/>
+                    <Picker x:Name="FacultyPicker" WidthRequest="220" Margin="95,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout x:Name="Prop3" Grid.Column="1" Grid.Row="3" Orientation="Horizontal" Margin="50,10,0,0" VerticalOptions="Start">
+                    <CheckBox x:Name="DepartmentCheckBox"/>
+                    <Label Text="Department" FontSize="15" Margin="0,5,20,0"/>
+                    <Picker x:Name="DepartmentPicker" WidthRequest="220" Margin="95,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout x:Name="Prop4" Grid.Column="1" Grid.Row="4" Orientation="Horizontal" Margin="50,10,0,0" VerticalOptions="Start">
+                    <CheckBox x:Name="SubjectsCheckBox"/>
+                    <Label Text="Subjects" FontSize="15" Margin="0,5,20,0"/>
+                    <Picker x:Name="SubjectsPicker" WidthRequest="220" Margin="95,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout x:Name="Prop5" Grid.Column="1" Grid.Row="5" Orientation="Horizontal" Margin="50,10,0,0" VerticalOptions="Start">
+                    <CheckBox x:Name="MarksCheckBox"/>
+                    <Label Text="Marks" FontSize="15" Margin="0,5,20,0"/>
+                    <Picker x:Name="MarksPicker" WidthRequest="220" Margin="95,0,0,0"/>
+                </StackLayout>
+
+                
+            </Grid>
+
+            <StackLayout Grid.Column="0" Grid.Row="6" Orientation="Horizontal" Margin="0,0,0,0">
+                <Button x:Name="OpenFileButton" Text="Open file" Clicked="OnOpenFileButton" HorizontalOptions="Center" WidthRequest="150" Margin="20,0,0,0" BackgroundColor="Plum"/>
+                <Button x:Name="SearchBtn" Text="Search" Clicked="SearchBtnHandler" HorizontalOptions="Center" WidthRequest="150" Margin="20,0,0,0" BackgroundColor="Plum"/>
+                <Button x:Name="ClearBtn" Text="Clear" Clicked="ClearFields" HorizontalOptions="Center" WidthRequest="150" Margin="20,0,0,0" BackgroundColor="Plum"/>
+                <Button x:Name="TransformToHTMLBtn" Text="Convert to HTML" Clicked="OnTransformToHTMLBtnClicked" HorizontalOptions="Center" WidthRequest="150" Margin="20,0,0,0" BackgroundColor="Plum"/>
+                <Button x:Name="ExitButton" Text="Exit" Clicked="OnExitBtnClicked" HorizontalOptions="Center" WidthRequest="150" Margin="20,0,0,0" BackgroundColor="Plum"/>
+            </StackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
